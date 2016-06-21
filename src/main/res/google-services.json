@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "790447240270",
+    "firebase_url": "https://properties-87ce2.firebaseio.com",
+    "project_id": "properties-87ce2",
+    "storage_bucket": "properties-87ce2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790447240270:android:c959db33fe492f35",
+        "android_client_info": {
+          "package_name": "com.example.hicham.properties"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790447240270-ktvbg9cts0qj7gfac950tjnptgf20rcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpQoQcC1o_BOha-NtjoXo9Bjo-q2CDcRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
