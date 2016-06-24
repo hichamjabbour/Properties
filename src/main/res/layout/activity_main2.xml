@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="app.com.example.hicham.myapplication.MainActivity">
+    tools:context="com.example.hicham.properties.SignUpActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,7 +13,8 @@
         android:layout_centerInParent="true"
         android:paddingRight="10dp"
         android:paddingLeft="10dp"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout3">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,7 +36,8 @@
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:id="@+id/email" />
 
     </LinearLayout>
     <LinearLayout
@@ -54,7 +56,8 @@
             android:ems="10"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:id="@+id/password" />
 
     </LinearLayout>
     <LinearLayout
@@ -72,8 +75,21 @@
             android:ems="10"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:id="@+id/confirmPassword" />
 
     </LinearLayout>
+
     </LinearLayout>
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/text"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/SignUp"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

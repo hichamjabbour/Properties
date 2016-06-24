@@ -1,3 +1,1847 @@
 <resources>
     <string name="app_name">Properties</string>
+    <string-array name="areas_names">
+
+        <item>Leeds</item>
+
+
+        <item>Sheffield</item>
+
+
+        <item>Nottingham</item>
+
+
+        <item>Leicester</item>
+
+
+        <item>Bristol</item>
+
+
+        <item>Reading</item>
+
+
+        <item>Clitheroe</item>
+
+
+        <item>Bournemouth</item>
+
+
+        <item>Bolton</item>
+
+
+        <item>Boston</item>
+
+
+        <item>Colchester</item>
+
+
+        <item>Consett</item>
+
+
+        <item>Bodmin</item>
+
+
+        <item>Redruth</item>
+
+
+        <item>Birmingham</item>
+
+
+        <item>Cambridge</item>
+
+
+        <item>Aberdeen</item>
+
+
+        <item>Bath</item>
+
+
+        <item>Barnsley</item>
+
+
+        <item>Canterbury</item>
+
+
+        <item>Carlisle</item>
+
+
+        <item>Barrow-in Furness / Millom</item>
+
+
+        <item>Ashford (Kent)</item>
+
+
+        <item>Bedford</item>
+
+
+        <item>Abingdon</item>
+
+
+        <item>Coatbridge</item>
+
+
+        <item>Bideford</item>
+
+
+        <item>Cardigan</item>
+
+
+        <item>Arbroath</item>
+
+
+        <item>Cheltenham</item>
+
+
+        <item>Chichester</item>
+
+
+        <item>Chester</item>
+
+
+        <item>Chelmsford</item>
+
+
+        <item>Chesterfield</item>
+
+
+        <item>Bangor (Gwynedd)</item>
+
+
+        <item>Chippenham</item>
+
+
+        <item>Blairgowrie</item>
+
+
+        <item>Aldershot</item>
+
+
+        <item>Blackpool</item>
+
+
+        <item>Blackburn</item>
+
+
+        <item>Clacton-on-Sea</item>
+
+
+        <item>Basingstoke</item>
+
+
+        <item>Coppull</item>
+
+
+        <item>Blandford</item>
+
+
+        <item>Alloa</item>
+
+
+        <item>Congleton</item>
+
+
+        <item>Banff</item>
+
+
+        <item>Bridlington</item>
+
+
+        <item>Cromer</item>
+
+
+        <item>Andover</item>
+
+
+        <item>Carmarthen</item>
+
+
+        <item>Basildon</item>
+
+
+        <item>Ammanford</item>
+
+
+        <item>Crewe</item>
+
+
+        <item>Barnstaple</item>
+
+
+        <item>Brighton</item>
+
+
+        <item>Bradford</item>
+
+
+        <item>Clevedon</item>
+
+
+        <item>Camberley</item>
+
+
+        <item>Brentwood</item>
+
+
+        <item>Bridgwater</item>
+
+
+        <item>Bishops Stortford</item>
+
+
+        <item>Buckingham</item>
+
+
+        <item>Burnley</item>
+
+
+        <item>Burton-on-Trent</item>
+
+
+        <item>Bury-St-Edmunds</item>
+
+
+        <item>Cirencester</item>
+
+
+        <item>Caernarfon</item>
+
+
+        <item>Guisborough</item>
+
+
+        <item>Bude</item>
+
+
+        <item>Berwick-on-Tweed</item>
+
+
+        <item>Cumnock</item>
+
+
+        <item>Chepstow</item>
+
+
+        <item>Ayr</item>
+
+
+        <item>Crawley</item>
+
+
+        <item>Ardrossan</item>
+
+
+        <item>Banbury</item>
+
+
+        <item>Aylesbury</item>
+
+
+        <item>Axminster</item>
+
+
+        <item>Buxton</item>
+
+
+        <item>Bewdley</item>
+
+
+        <item>Cerne Abbas</item>
+
+
+        <item>Arrochar</item>
+
+
+        <item>Doncaster</item>
+
+
+        <item>Folkestone</item>
+
+
+        <item>Dover</item>
+
+
+        <item>Dorchester</item>
+
+
+        <item>Dorking</item>
+
+
+        <item>Forfar</item>
+
+
+        <item>Bridport</item>
+
+
+        <item>Forres</item>
+
+
+        <item>Edinburgh</item>
+
+
+        <item>Fort Augustus</item>
+
+
+        <item>Dartford</item>
+
+
+        <item>Eastbourne</item>
+
+
+        <item>Falkirk</item>
+
+
+        <item>Darlington</item>
+
+
+        <item>Falmouth</item>
+
+
+        <item>Daventry</item>
+
+
+        <item>Fakenham</item>
+
+
+        <item>Fareham</item>
+
+
+        <item>Banchory</item>
+
+
+        <item>Derby</item>
+
+
+        <item>Anstruther</item>
+
+
+        <item>St Andrews</item>
+
+
+        <item>Ashbourne</item>
+
+
+        <item>Ladybank</item>
+
+
+        <item>Aboyne / Ballater</item>
+
+
+        <item>Craigellachie</item>
+
+
+        <item>Barmouth</item>
+
+
+        <item>East Grinstead</item>
+
+
+        <item>Elgin</item>
+
+
+        <item>Bracknell</item>
+
+
+        <item>Fraserburgh</item>
+
+
+        <item>Easingwold</item>
+
+
+        <item>Fishguard</item>
+
+
+        <item>Dingwall</item>
+
+
+        <item>Dunkeld</item>
+
+
+        <item>Mold</item>
+
+
+        <item>Ely</item>
+
+
+        <item>Chatteris</item>
+
+
+        <item>East Kilbride</item>
+
+
+        <item>Brechin</item>
+
+
+        <item>Strathaven</item>
+
+
+        <item>Ellon</item>
+
+
+        <item>Pakenham</item>
+
+
+        <item>Killearn</item>
+
+
+        <item>Duns</item>
+
+
+        <item>Dereham</item>
+
+
+        <item>Crediton</item>
+
+
+        <item>Ashburton</item>
+
+
+        <item>Downham Market</item>
+
+
+        <item>Faringdon</item>
+
+
+        <item>Dunbar</item>
+
+
+        <item>Dunoon</item>
+
+
+        <item>Great Dunmow</item>
+
+
+        <item>Esher</item>
+
+
+        <item>Frome</item>
+
+
+        <item>Grays Thurrock</item>
+
+
+        <item>Braintree</item>
+
+
+        <item>Driffield</item>
+
+
+        <item>Diss</item>
+
+
+        <item>Devizes</item>
+
+
+        <item>Fortrose</item>
+
+
+        <item>Dundee</item>
+
+
+        <item>Dunfermline</item>
+
+
+        <item>Dudley</item>
+
+
+        <item>Evesham</item>
+
+
+        <item>Dumfries</item>
+
+
+        <item>Langholm</item>
+
+
+        <item>Bishop Auckland / Stanhope</item>
+
+
+        <item>Dumbarton</item>
+
+
+        <item>Exeter</item>
+
+
+        <item>Felixstowe</item>
+
+
+        <item>Budleigh Salterton</item>
+
+
+        <item>Fort William</item>
+
+
+        <item>Dulverton</item>
+
+
+        <item>Honington</item>
+
+
+        <item>Horsham</item>
+
+
+        <item>Honiton</item>
+
+
+        <item>Goole</item>
+
+
+        <item>Holbeach</item>
+
+
+        <item>Holyhead</item>
+
+
+        <item>Golspie</item>
+
+
+        <item>Holsworthy</item>
+
+
+        <item>Glasgow</item>
+
+
+        <item>Alton</item>
+
+
+        <item>Halifax</item>
+
+
+        <item>Boroughbridge / Harrogate</item>
+
+
+        <item>Hastings</item>
+
+
+        <item>Ringwood</item>
+
+
+        <item>Gainsborough</item>
+
+
+        <item>Haslemere</item>
+
+
+        <item>Hartlepool</item>
+
+
+        <item>Market Weighton / North Cave</item>
+
+
+        <item>Helmsdale</item>
+
+
+        <item>Hereford</item>
+
+
+        <item>Hathersage</item>
+
+
+        <item>Bellingham / Haltwhistle / Hexham</item>
+
+
+        <item>Heathfield</item>
+
+
+        <item>Helensburgh</item>
+
+
+        <item>Clynderwen / Haverfordwest</item>
+
+
+        <item>Stevenage</item>
+
+
+        <item>Helmsley</item>
+
+
+        <item>Haverhill</item>
+
+
+        <item>Hemel Hempstead</item>
+
+
+        <item>Pontypridd</item>
+
+
+        <item>Haywards Heath</item>
+
+
+        <item>Gairloch</item>
+
+
+        <item>Barry</item>
+
+
+        <item>Stowmarket</item>
+
+
+        <item>Hawick</item>
+
+
+        <item>Stow-on-the-Wold</item>
+
+
+        <item>Gloucester</item>
+
+
+        <item>Dursley</item>
+
+
+        <item>Chipping Sodbury</item>
+
+
+        <item>Hinckley</item>
+
+
+        <item>Glenurquhart</item>
+
+
+        <item>Glossop</item>
+
+
+        <item>Glastonbury</item>
+
+
+        <item>Chard</item>
+
+
+        <item>Gretna</item>
+
+
+        <item>Hitchin</item>
+
+
+        <item>Inverness</item>
+
+
+        <item>Insch</item>
+
+
+        <item>Girvan</item>
+
+
+        <item>Huntly</item>
+
+
+        <item>Inverurie</item>
+
+
+        <item>Killingholme</item>
+
+
+        <item>Isle of Skye � Edinbane</item>
+
+
+        <item>Isle of Skye � Broadford</item>
+
+
+        <item>Grimsby</item>
+
+
+        <item>Ipswich</item>
+
+
+        <item>Gravesend</item>
+
+
+        <item>Greenock</item>
+
+
+        <item>Grantham</item>
+
+
+        <item>Holmes Chapel</item>
+
+
+        <item>Isle of Skye � Portree</item>
+
+
+        <item>Grantown-on-Spey</item>
+
+
+        <item>Huntingdon</item>
+
+
+        <item>Guernsey</item>
+
+
+        <item>Hull</item>
+
+
+        <item>Guildford</item>
+
+
+        <item>Huddersfield</item>
+
+
+        <item>Hunstanton</item>
+
+
+        <item>Warboys</item>
+
+
+        <item>Hungerford</item>
+
+
+        <item>Bishops Waltham</item>
+
+
+        <item>Corwen</item>
+
+
+        <item>Henley-on-Thames</item>
+
+
+        <item>Colwyn Bay</item>
+
+
+        <item>Great Yarmouth</item>
+
+
+        <item>High Wycombe</item>
+
+
+        <item>Pontypool</item>
+
+
+        <item>Islay and Jura</item>
+
+
+        <item>Hay-on-Wye</item>
+
+
+        <item>Inveraray</item>
+
+
+        <item>Harthill</item>
+
+
+        <item>Lowestoft</item>
+
+
+        <item>Looe</item>
+
+
+        <item>Johnstone</item>
+
+
+        <item>Bathgate</item>
+
+
+        <item>Alford (Lincs) / Louth / Horncastle</item>
+
+
+        <item>Brooke</item>
+
+
+        <item>Loughborough</item>
+
+
+        <item>Liverpool</item>
+
+
+        <item>Lochcarron</item>
+
+
+        <item>Lincoln</item>
+
+
+        <item>Lancaster</item>
+
+
+        <item>Hornby</item>
+
+
+        <item>Leighton Buzzard</item>
+
+
+        <item>Martin</item>
+
+
+        <item>Redditch</item>
+
+
+        <item>Laggan</item>
+
+
+        <item>Sleaford</item>
+
+
+        <item>Coalville</item>
+
+
+        <item>Ledbury</item>
+
+
+        <item>Jersey</item>
+
+
+        <item>Keighley</item>
+
+
+        <item>Kettering</item>
+
+
+        <item>Leek</item>
+
+
+        <item>Kendal</item>
+
+
+        <item>Hawkshead</item>
+
+
+        <item>Grange-Over-Sands</item>
+
+
+        <item>Sedbergh</item>
+
+
+        <item>Kingussie</item>
+
+
+        <item>Keith</item>
+
+
+        <item>Cannock</item>
+
+
+        <item>Kington</item>
+
+
+        <item>Llanarth</item>
+
+
+        <item>Lochgilphead</item>
+
+
+        <item>Knighton</item>
+
+
+        <item>Kingsbridge</item>
+
+
+        <item>Lairg</item>
+
+
+        <item>Llandovery</item>
+
+
+        <item>Kings Lynn</item>
+
+
+        <item>Llanelli</item>
+
+
+        <item>Lanark</item>
+
+
+        <item>Castle Douglas</item>
+
+
+        <item>Kirkcudbright</item>
+
+
+        <item>Llandeilo</item>
+
+
+        <item>Llandysul</item>
+
+
+        <item>Moscow</item>
+
+
+        <item>Laurencekirk</item>
+
+
+        <item>Kidderminster</item>
+
+
+        <item>Kilmarnock</item>
+
+
+        <item>Lapworth</item>
+
+
+        <item>Knutsford</item>
+
+
+        <item>Launceston</item>
+
+
+        <item>Killin</item>
+
+
+        <item>Leominster</item>
+
+
+        <item>Stonehaven</item>
+
+
+        <item>Lampeter</item>
+
+
+        <item>Lochinver</item>
+
+
+        <item>Oakham</item>
+
+
+        <item>Kelso</item>
+
+
+        <item>Kirriemuir</item>
+
+
+        <item>Lockerbie</item>
+
+
+        <item>Kinross</item>
+
+
+        <item>Lauder</item>
+
+
+        <item>Liskeard</item>
+
+
+        <item>Cranbrook</item>
+
+
+        <item>New Luce</item>
+
+
+        <item>Luton</item>
+
+
+        <item>Carradale</item>
+
+
+        <item>Ludlow</item>
+
+
+        <item>Campbeltown</item>
+
+
+        <item>Bishops Castle</item>
+
+
+        <item>Lymington</item>
+
+
+        <item>Llanwrtyd Wells</item>
+
+
+        <item>Kirkcaldy</item>
+
+
+        <item>Lybster</item>
+
+
+        <item>Lydney</item>
+
+
+        <item>Lerwick, Shetland Islands</item>
+
+
+        <item>Llandrindod Wells</item>
+
+
+        <item>Lynton</item>
+
+
+        <item>Kyle</item>
+
+
+        <item>Monmouth</item>
+
+
+        <item>Norwich</item>
+
+
+        <item>Northampton</item>
+
+
+        <item>Northwich</item>
+
+
+        <item>Chipping Norton</item>
+
+
+        <item>Northallerton</item>
+
+
+        <item>Manchester</item>
+
+
+        <item>North Berwick</item>
+
+
+        <item>Maldon</item>
+
+
+        <item>Maidstone</item>
+
+
+        <item>Mansfield</item>
+
+
+        <item>Isle of Man</item>
+
+
+        <item>Macclesfield</item>
+
+
+        <item>Newton Abbot</item>
+
+
+        <item>Maidenhead</item>
+
+
+        <item>Matlock</item>
+
+
+        <item>Market Drayton</item>
+
+
+        <item>Oban</item>
+
+
+        <item>Newport</item>
+
+
+        <item>Medway</item>
+
+
+        <item>Newbury</item>
+
+
+        <item>Newark</item>
+
+
+        <item>Newquay</item>
+
+
+        <item>Newmarket</item>
+
+
+        <item>Neath</item>
+
+
+        <item>Strathy</item>
+
+
+        <item>Middlesbrough</item>
+
+
+        <item>Minehead</item>
+
+
+        <item>New Galloway</item>
+
+
+        <item>Milford Haven</item>
+
+
+        <item>Moretonhampstead</item>
+
+
+        <item>Cemmaes Road</item>
+
+
+        <item>Oldmeldrum</item>
+
+
+        <item>Brigg</item>
+
+
+        <item>Malton</item>
+
+
+        <item>Machynlleth</item>
+
+
+        <item>Maybole</item>
+
+
+        <item>Bridgend</item>
+
+
+        <item>Sanquhar</item>
+
+
+        <item>Prudhoe</item>
+
+
+        <item>New Mills</item>
+
+
+        <item>Melton Mowbray</item>
+
+
+        <item>Alnwick</item>
+
+
+        <item>Malmesbury</item>
+
+
+        <item>Nairn</item>
+
+
+        <item>Bamburgh</item>
+
+
+        <item>Rothbury</item>
+
+
+        <item>Morpeth</item>
+
+
+        <item>Newton Stewart</item>
+
+
+        <item>Marlborough</item>
+
+
+        <item>Market Rasen</item>
+
+
+        <item>Montrose</item>
+
+
+        <item>Coleshill</item>
+
+
+        <item>Meriden</item>
+
+
+        <item>Bedale</item>
+
+
+        <item>Bala</item>
+
+
+        <item>Isle of Mull � Craignure</item>
+
+
+        <item>Isle of Mull � Fionnphort</item>
+
+
+        <item>Moffat</item>
+
+
+        <item>Malvern</item>
+
+
+        <item>Merthyr Tydfil</item>
+
+
+        <item>Llanidloes / Newtown</item>
+
+
+        <item>Mallaig</item>
+
+
+        <item>Isle of Mull � Tobermory</item>
+
+
+        <item>Orpington</item>
+
+
+        <item>Betws-y-Coed</item>
+
+
+        <item>Oswestry</item>
+
+
+        <item>North Walsham</item>
+
+
+        <item>Church Stretton</item>
+
+
+        <item>Skelmersdale</item>
+
+
+        <item>Brampton (6 figure numbers)</item>
+
+
+        <item>Wigton</item>
+
+
+        <item>Raughton Head</item>
+
+
+        <item>Brampton (4 and 5 figure numbers)</item>
+
+
+        <item>Motherwell</item>
+
+
+        <item>Rothesay</item>
+
+
+        <item>Southend-on-Sea</item>
+
+
+        <item>Southport</item>
+
+
+        <item>Rochdale</item>
+
+
+        <item>Welwyn Garden City</item>
+
+
+        <item>Romford</item>
+
+
+        <item>Rotherham</item>
+
+
+        <item>Isles of Scilly</item>
+
+
+        <item>Peebles</item>
+
+
+        <item>Salisbury</item>
+
+
+        <item>Scarborough</item>
+
+
+        <item>Scunthorpe</item>
+
+
+        <item>Rockbourne</item>
+
+
+        <item>St Austell</item>
+
+
+        <item>St Albans</item>
+
+
+        <item>Saxmundham</item>
+
+
+        <item>Settle</item>
+
+
+        <item>Petersfield</item>
+
+
+        <item>Sevenoaks</item>
+
+
+        <item>Peterborough</item>
+
+
+        <item>Penzance</item>
+
+
+        <item>Redhill</item>
+
+
+        <item>Perth</item>
+
+
+        <item>Sedgefield</item>
+
+
+        <item>Shrewsbury</item>
+
+
+        <item>St Helens</item>
+
+
+        <item>Rhyl</item>
+
+
+        <item>Bridgnorth</item>
+
+
+        <item>Shaftesbury</item>
+
+
+        <item>Richmond</item>
+
+
+        <item>Shepton Mallet</item>
+
+
+        <item>Selkirk</item>
+
+
+        <item>Pickering</item>
+
+
+        <item>Plymouth</item>
+
+
+        <item>Slough</item>
+
+
+        <item>Skegness</item>
+
+
+        <item>Skipton</item>
+
+
+        <item>Selby</item>
+
+
+        <item>Pwllheli</item>
+
+
+        <item>Pocklington</item>
+
+
+        <item>Swaffham</item>
+
+
+        <item>Temple Cloud</item>
+
+
+        <item>Royston</item>
+
+
+        <item>Crieff</item>
+
+
+        <item>Ripon</item>
+
+
+        <item>Porthmadog</item>
+
+
+        <item>Sandy</item>
+
+
+        <item>Penrith</item>
+
+
+        <item>Appleby</item>
+
+
+        <item>Pooley Bridge</item>
+
+
+        <item>Keswick</item>
+
+
+        <item>South Molton</item>
+
+
+        <item>Isle of Arran</item>
+
+
+        <item>Maud</item>
+
+
+        <item>Preston</item>
+
+
+        <item>Ripley</item>
+
+
+        <item>Spalding</item>
+
+
+        <item>Stranraer</item>
+
+
+        <item>Retford</item>
+
+
+        <item>Bourne</item>
+
+
+        <item>Peterhead</item>
+
+
+        <item>Stamford</item>
+
+
+        <item>Stoke-on-Trent</item>
+
+
+        <item>Staines</item>
+
+
+        <item>Stafford</item>
+
+
+        <item>Stirling</item>
+
+
+        <item>Sudbury</item>
+
+
+        <item>Rugby</item>
+
+
+        <item>Stratford-upon-Avon</item>
+
+
+        <item>Spilsby</item>
+
+
+        <item>Swansea</item>
+
+
+        <item>Swindon</item>
+
+
+        <item>Romsey</item>
+
+
+        <item>Sittingbourne</item>
+
+
+        <item>Pitlochry</item>
+
+
+        <item>Rye</item>
+
+
+        <item>Pulborough</item>
+
+
+        <item>Saffron Walden</item>
+
+
+        <item>Torquay</item>
+
+
+        <item>Torrington</item>
+
+
+        <item>Sullom Voe, Shetland Islands</item>
+
+
+        <item>Ballindalloch</item>
+
+
+        <item>Tomatin</item>
+
+
+        <item>Tomdoun</item>
+
+
+        <item>Kinrossie</item>
+
+
+        <item>Tavistock</item>
+
+
+        <item>Taunton</item>
+
+
+        <item>Ruthin</item>
+
+
+        <item>Uckfield</item>
+
+
+        <item>Tamworth</item>
+
+
+        <item>Coupar Angus</item>
+
+
+        <item>Tarporley</item>
+
+
+        <item>Kirkwhelpington</item>
+
+
+        <item>Clopton</item>
+
+
+        <item>Barnard Castle</item>
+
+
+        <item>Narberth</item>
+
+
+        <item>St Boswells</item>
+
+
+        <item>Okehampton</item>
+
+
+        <item>Dalmally</item>
+
+
+        <item>Camelford</item>
+
+
+        <item>Padstow</item>
+
+
+        <item>Thetford</item>
+
+
+        <item>Thanet</item>
+
+
+        <item>Thame</item>
+
+
+        <item>Thirsk</item>
+
+
+        <item>Thurso / Tongue</item>
+
+
+        <item>Thornhill</item>
+
+
+        <item>Lewis and Great Bernera, Outer Hebrides</item>
+
+
+        <item>Kilmelford</item>
+
+
+        <item>Ullapool</item>
+
+
+        <item>Ballachulish</item>
+
+
+        <item>Orkney</item>
+
+
+        <item>Sanday</item>
+
+
+        <item>Market Harborough</item>
+
+
+        <item>Harris, Outer Hebrides</item>
+
+
+        <item>Tain</item>
+
+
+        <item>Ardgay</item>
+
+
+        <item>Abington</item>
+
+
+        <item>Oxford</item>
+
+
+        <item>Kilchrenan</item>
+
+
+        <item>Bicester</item>
+
+
+        <item>Benebecula, Outer Hebrides</item>
+
+
+        <item>Barra, Outer Hebrides</item>
+
+
+        <item>Truro</item>
+
+
+        <item>Abergavenny</item>
+
+
+        <item>Brecon</item>
+
+
+        <item>Tranent</item>
+
+
+        <item>North Uist, Outer Hebrides</item>
+
+
+        <item>Callander</item>
+
+
+        <item>South Uist, Outer Hebrides</item>
+
+
+        <item>Scarinish</item>
+
+
+        <item>Tarbert</item>
+
+
+        <item>Kinloch Rannoch</item>
+
+
+        <item>Caterham</item>
+
+
+        <item>Tiverton</item>
+
+
+        <item>Bromyard</item>
+
+
+        <item>Knightwick</item>
+
+
+        <item>Aberfeldy</item>
+
+
+        <item>Turriff</item>
+
+
+        <item>Rugeley</item>
+
+
+        <item>Ayton / Coldstream</item>
+
+
+        <item>Tunbridge Wells</item>
+
+
+        <item>Uxbridge</item>
+
+
+        <item>Galashiels</item>
+
+
+        <item>Biggar</item>
+
+
+        <item>Workington</item>
+
+
+        <item>Wolverhampton</item>
+
+
+        <item>Worthing</item>
+
+
+        <item>York</item>
+
+
+        <item>Worcester</item>
+
+
+        <item>Milton Keynes</item>
+
+
+        <item>Worksop</item>
+
+
+        <item>Tyneside / Durham / Sunderland</item>
+
+
+        <item>Ware</item>
+
+
+        <item>Walsall</item>
+
+
+        <item>Watford</item>
+
+
+        <item>Wakefield</item>
+
+
+        <item>Warrington</item>
+
+
+        <item>Warwick</item>
+
+
+        <item>Runcorn</item>
+
+
+        <item>Wareham</item>
+
+
+        <item>Shap</item>
+
+
+        <item>Weybridge</item>
+
+
+        <item>Wellingborough</item>
+
+
+        <item>Weston-Super-Mare</item>
+
+
+        <item>Yeovil</item>
+
+
+        <item>Wetherby</item>
+
+
+        <item>Welshpool</item>
+
+
+        <item>Wem</item>
+
+
+        <item>Wigan</item>
+
+
+        <item>Guiseley</item>
+
+
+        <item>West Heslerton</item>
+
+
+        <item>Wisbech</item>
+
+
+        <item>Whitehaven</item>
+
+
+        <item>Gosforth</item>
+
+
+        <item>Whitby</item>
+
+
+        <item>Whitchurch</item>
+
+
+        <item>Whatton</item>
+
+
+        <item>Sandwick, Shetland Islands</item>
+
+
+        <item>Colonsay</item>
+
+
+        <item>Telford</item>
+
+
+        <item>Wymondham</item>
+
+
+        <item>Madingley</item>
+
+
+        <item>Wick</item>
+
+
+        <item>Mid Yell, Shetland Islands</item>
+
+
+        <item>Westerham</item>
+
+
+        <item>Winchester</item>
+
+
+        <item>Wincanton</item>
+
+
+        <item>Hornsea / Patrington</item>
+
+
+        <item>Strontian</item>
+
+
+        <item>Penicuik</item>
+
+
+        <item>Leyburn</item>
+
+
+        <item>Aberystwyth</item>
+
+
+        <item>Scourie</item>
+
+
+        <item>Glenborrodale</item>
+
+
+        <item>Llanon</item>
+
+
+        <item>Alford (Aberdeen) / Strathdon</item>
+
+
+        <item>Pontefract</item>
+
+
+        <item>Wrexham</item>
+
+
+        <item>Amesbury</item>
+
+
+        <item>Wormbridge</item>
+
+
+        <item>Builth Wells</item>
+
+
+        <item>Isle of Wight</item>
+
+
+        <item>Watchet</item>
+
+
+        <item>Warminster</item>
+
+
+        <item>Bungay</item>
+
+
+        <item>Ebbsfleet</item>
+
+
+        <item>Wigtown</item>
+
+
+        <item>Ross-on-Wye</item>
+
+
+        <item>Lea Valley</item>
+
+
+        <item>Witney</item>
+
+
+        <item>St Clears</item>
+
+
+        <item>Garstang</item>
+
+
+        <item>Strathpeffer</item>
+
+
+        <item>London</item>
+
+
+        <item>Southampton / Portsmouth</item>
+
+
+        <item>Coventry</item>
+
+
+        <item>Northern Ireland</item>
+
+
+        <item>Cardiff</item>
+
+    </string-array>
+    <string-array name="sidebar">
+        <item>Saved Properties</item>
+        <item>Saved Agents</item>
+    </string-array>
+    <string-array name="longPress">
+        <item>Share Property</item>
+        <item>Call Agent</item>
+    </string-array>
+    <string name="server_client_id"></string>
 </resources>
