@@ -63,43 +63,66 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/linearLayout"
         android:layout_centerInParent="true"
+
         android:text="Login" />
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:id="@+id/login"
-        android:layout_below="@+id/linearLayout"
+        android:orientation="vertical"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp" />
+        android:layout_below="@+id/linearLayout"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign In"
+                android:id="@+id/login" />
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:id="@+id/SignUp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="forgot password"
+            android:linksClickable="true"
+            android:textColorLink="@color/colorPrimary"
+            android:id="@+id/label"
+            android:layout_below="@id/SignUp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
-    <ImageButton
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@drawable/common_google_signin_btn_icon_dark_normal"
-        android:id="@+id/google"/>
-    <ImageButton
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@drawable/com_facebook_button_icon_blue"
-        android:id="@+id/facebook"/>
-</LinearLayout>
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/label"
-        android:layout_below="@+id/login"
-        android:layout_centerHorizontal="true" />
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/label"
-    android:text="forgot password"
-    android:linksClickable="true"/>
+        android:id="@+id/show"/>
+   <!-- <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/com_facebook_button_icon_blue"
+        android:id="@+id/facebook"/> -->
+</LinearLayout>
+
+
 </RelativeLayout>
